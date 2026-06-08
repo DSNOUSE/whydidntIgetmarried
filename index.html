@@ -11,28 +11,153 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Hero Section - Full viewport with event banner -->
-    <section class="hero">
+
+    <!-- Section 1: Hero -->
+    <section class="hero" id="home">
         <div class="hero-overlay"></div>
         <div class="hero-content">
-            <img src="public/images/logo.jpg" alt="Focus Arts Promotions" class="logo">
-            <p class="tagline">Proclaiming the Gospel, Promoting Talent, and Perfecting the Arts</p>
-            <div class="divider"></div>
-            <h2 class="coming-soon">Coming Soon</h2>
-            <p class="subtitle">A new stage play experience is on its way</p>
-            <div class="show-dates">
-                <div class="date-card">
-                    <span class="date">Sun 24 May</span>
-                    <span class="venue">Beck Theatre, Hayes</span>
-                    <span class="time">Doors 6pm | Show 7pm</span>
+            <img src="public/images/logo.jpg" alt="Focus Arts Promotions" class="hero-logo">
+            <h1 class="hero-title">Why Didn't I Get Married?</h1>
+            <p class="hero-subtitle">A bold courtroom comedy-drama by Alan Charles</p>
+            <div class="hero-dates">
+                <span>Sun 24 May &bull; Beck Theatre, Hayes</span>
+                <span>Mon 25 May &bull; Fairfield Ashcroft Theatre, Croydon</span>
+            </div>
+            <a href="#tickets" class="btn btn-primary">Book Tickets</a>
+        </div>
+    </section>
+
+    <!-- Section 2: Productions Carousel -->
+    <section class="productions" id="productions">
+        <h2 class="section-title">Our Productions</h2>
+        <p class="section-subtitle">Over 15 years of powerful storytelling across the UK, Caribbean & North America</p>
+        <div class="carousel">
+            <div class="carousel-track">
+                <div class="show-card" style="--accent: #C5A55A;">
+                    <div class="show-card-inner">
+                        <span class="show-year">2025</span>
+                        <h3 class="show-name">Why Didn't I Get Married?</h3>
+                    </div>
                 </div>
-                <div class="date-card">
-                    <span class="date">Mon 25 May</span>
-                    <span class="venue">Fairfield Ashcroft Theatre, Croydon</span>
-                    <span class="time">Doors 6pm | Show 7pm</span>
+                <div class="show-card" style="--accent: #E84855;">
+                    <div class="show-card-inner">
+                        <span class="show-year">2023</span>
+                        <h3 class="show-name">Midlife Crisis</h3>
+                    </div>
+                </div>
+                <div class="show-card" style="--accent: #3185FC;">
+                    <div class="show-card-inner">
+                        <span class="show-year">2021</span>
+                        <h3 class="show-name">I Am Getting There</h3>
+                    </div>
+                </div>
+                <div class="show-card" style="--accent: #FF6F59;">
+                    <div class="show-card-inner">
+                        <span class="show-year">2019</span>
+                        <h3 class="show-name">The Mans Dem</h3>
+                    </div>
+                </div>
+                <div class="show-card" style="--accent: #7B2D8B;">
+                    <div class="show-card-inner">
+                        <span class="show-year">2017</span>
+                        <h3 class="show-name">Love Sax and All That Jazz</h3>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Section 3: About / Our Story -->
+    <section class="about" id="about">
+        <div class="about-image">
+            <img src="public/images/event-banner.png" alt="Focus Arts Promotions cast">
+        </div>
+        <div class="about-text">
+            <h2 class="section-title-left">Our Story</h2>
+            <p>Focus Arts Promotions is a UK-based theatre and events organisation dedicated to delivering wholesome, family-oriented entertainment. We produce high-quality, inspiring, and uplifting theatre productions with a vision of expanding into film and documentary.</p>
+            <p class="about-motto">"Proclaiming the gospel, promoting talent, and perfecting the arts"</p>
+            <p>With over 15 years of experience, we offer workshops, training programmes, and live stage performances — collaborating across music, poetry, comedy, dance, and theatre.</p>
+            <a href="#tickets" class="btn btn-secondary">Learn More</a>
+        </div>
+    </section>
+
+    <!-- Section 4: Book Tickets -->
+    <section class="tickets" id="tickets">
+        <h2 class="section-title">Book Tickets</h2>
+        <p class="section-subtitle">Choose your venue and secure your seat</p>
+        <div class="ticket-cards">
+            <div class="ticket-card">
+                <div class="ticket-date">Sunday 24 May 2025</div>
+                <h3 class="ticket-venue">Beck Theatre, Hayes</h3>
+                <p class="ticket-address">Grange Rd, Hayes, UB3 2UE</p>
+                <p class="ticket-time">Doors 6pm &bull; Show 7pm</p>
+                <p class="ticket-phone">Box Office: 0203 342 9970</p>
+                <a href="https://www.parkwoodtheatres.co.uk" target="_blank" rel="noopener" class="btn btn-primary">Get Tickets</a>
+            </div>
+            <div class="ticket-card">
+                <div class="ticket-date">Monday 25 May 2025</div>
+                <h3 class="ticket-venue">Fairfield Ashcroft Theatre</h3>
+                <p class="ticket-address">Park Lane, Croydon, CR0 1JD</p>
+                <p class="ticket-time">Doors 6pm &bull; Show 7pm</p>
+                <p class="ticket-phone">Box Office: 0300 500 0595</p>
+                <a href="https://fairfield.co.uk" target="_blank" rel="noopener" class="btn btn-primary">Get Tickets</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: Mission / Support -->
+    <section class="mission" id="mission">
+        <div class="mission-content">
+            <h2 class="section-title">Our Mission</h2>
+            <p class="mission-text">We believe the arts are a powerful tool for spreading the gospel and creating meaningful change. Our commitment is to use creativity as a vehicle for inspiration, transformation, and lasting societal impact.</p>
+            <div class="mission-pillars">
+                <div class="pillar">
+                    <span class="pillar-icon">🎭</span>
+                    <h4>Educate</h4>
+                </div>
+                <div class="pillar">
+                    <span class="pillar-icon">💡</span>
+                    <h4>Empower</h4>
+                </div>
+                <div class="pillar">
+                    <span class="pillar-icon">🎬</span>
+                    <h4>Entertain</h4>
+                </div>
+                <div class="pillar">
+                    <span class="pillar-icon">🌍</span>
+                    <h4>Impact</h4>
+                </div>
+            </div>
+            <a href="mailto:info@focusartspromotions.com" class="btn btn-gold">Get In Touch</a>
+        </div>
+    </section>
+
+    <!-- Section 6: Footer -->
+    <footer class="footer" id="contact">
+        <div class="footer-top">
+            <div class="footer-newsletter">
+                <h3>Stay Updated</h3>
+                <p>Get the latest news, offers & invitations direct to your inbox.</p>
+                <form class="newsletter-form" onsubmit="return false;">
+                    <input type="text" placeholder="First name" required>
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+            <div class="footer-brand">
+                <img src="public/images/logo.jpg" alt="Focus Arts Promotions" class="footer-logo">
+                <p class="footer-tagline">Proclaiming the gospel, promoting talent, and perfecting the arts</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-socials">
+                <a href="#" aria-label="Facebook">FB</a>
+                <a href="#" aria-label="Instagram">IG</a>
+                <a href="#" aria-label="YouTube">YT</a>
+            </div>
+            <p class="footer-copy">&copy; 2025 Focus Arts Promotions. All rights reserved.</p>
+        </div>
+    </footer>
+
 </body>
 </html>
